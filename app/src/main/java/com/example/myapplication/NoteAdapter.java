@@ -39,7 +39,7 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteViewHolder
         TextView titleTextView, contentTextView;
 
         public NoteViewHolder(@NonNull View itemView) {
-            super(itemViw);
+            super(itemView);
             titleTextView = itemView.findViewById(R.id.titleTextView);
             contentTextView = itemView.findViewById(R.id.contentTextView);
         }
